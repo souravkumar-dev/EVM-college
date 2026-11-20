@@ -1,0 +1,44 @@
+
+# Environment and sensitive configuration
+.env
+.env.*
+!.env.example
+
+# Database credentials / local configuration
+config/database.local.php
+
+# Uploaded user files
+assets/uploads/
+uploads/
+
+# User profile and event uploaded images
+assets/images/events/*
+!assets/images/events/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Composer dependencies (if installed)
+vendor/
+
+# Local database backups
+*.sql.backup
+*.dump
